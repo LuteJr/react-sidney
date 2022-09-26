@@ -4,26 +4,26 @@ export const render = () => {
 
   container.innerHTML = `
     <h4>Add new contact</h4>
-    <label class="form-label mt-2"></label>
+    <label class="form-label mt-2">Name</label>
     <input type="text"
       name="name"
       class="form-control form-control-sm"
     >
 
-    <label class="form-label mt-2"></label>
+    <label class="form-label mt-2">Surname</label>
     <input type="text"
       name="surname"
       class="form-control form-control-sm"
     >
 
-    <label class="form-label mt-2"></label>
+    <label class="form-label mt-2">Phone</label>
     <input type="tel"
       name="phone"
       class="form-control form-control-sm"
     >
 
-    <label class="form-label mt-2"></label>
-    <input type="phone"
+    <label class="form-label mt-2">Email</label>
+    <input type="email"
       name="email"
       class="form-control form-control-sm"
     >
